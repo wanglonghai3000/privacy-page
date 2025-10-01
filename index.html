@@ -16,6 +16,7 @@
     a { color: #007AFF; text-decoration: none; }
     a:hover { text-decoration: underline; }
     nav a { margin-right: 12px; }
+    ul.tight li { margin: 4px 0; }
   </style>
 </head>
 <body>
@@ -41,19 +42,20 @@
   </nav>
 
   <h2 id="scope">Scope</h2>
-  <p>
-    Unless otherwise noted in the per-app sections below, the following terms apply to all of our apps.
-  </p>
+  <p>Unless otherwise noted in the per-app sections below, the following terms apply to all of our apps.</p>
+  <h3 id="children">Children</h3>
+  <p>Our apps are not directed to children under 13. We do not knowingly collect personal data from children.</p>
 
   <h2 id="data">Data We Collect</h2>
-  <ul>
+  <ul class="tight">
     <li><strong>No personal identifiers.</strong> We do not collect your name, email, phone number, or address.</li>
     <li><strong>Diagnostics (optional).</strong> Anonymous crash logs and performance metrics may be provided by Apple if you opted in to share analytics on your device settings.</li>
     <li><strong>Purchase records.</strong> When you make in-app purchases, Apple provides us with non-identifying transaction status solely to unlock features.</li>
+    <li><strong>Support emails.</strong> If you contact us by email, we use your email address and message solely to respond to your inquiry.</li>
   </ul>
 
   <h2 id="use">How We Use Data</h2>
-  <ul>
+  <ul class="tight">
     <li>Provide core functionality and paid features you requested.</li>
     <li>Diagnose issues and improve stability and performance.</li>
     <li>Comply with legal obligations and App Store policies.</li>
@@ -61,43 +63,46 @@
   <p><strong>We do not sell, rent, or share your data with advertisers.</strong></p>
 
   <h2 id="storage">Storage & Security</h2>
-  <ul>
+  <ul class="tight">
     <li>App configuration and content you enter are stored <strong>locally on your device</strong> unless explicitly stated.</li>
     <li>We employ reasonable technical and organizational measures to protect data against unauthorized access.</li>
+    <li>We do not keep server-side copies of your app content. Deleting the app removes locally stored data.</li>
   </ul>
 
   <h2 id="third">Third Parties</h2>
   <div class="card">
     <p><strong>Apple (App Store / StoreKit / Crash Reports).</strong> Purchases are processed by Apple; we do not see your payment card details. If you enable iOS/macOS analytics, Apple may share aggregated diagnostics with developers.</p>
     <p><strong>No third-party ads SDKs.</strong> Our apps do not integrate advertising or tracking SDKs.</p>
+    <p><strong>Data transfers.</strong> Data may be processed on servers outside your country when handled by Apple’s services.</p>
   </div>
 
   <h2 id="per-app">Per-App Details</h2>
 
   <h3 id="inetpulse">iNetPulse</h3>
-  <ul>
+  <ul class="tight">
     <li>Designed for SNMP bandwidth monitoring. The SNMP host, community string, and samples are used only to communicate with the network devices <strong>you configure</strong> and are stored locally on your device.</li>
-    <li>Background refresh (if enabled by the system) performs short polling windows; no data is transmitted to our servers.</li>
+    <li><strong>No data is transmitted to our servers; SNMP traffic is only between your device and your configured hosts.</strong></li>
+    <li>Background refresh (if enabled by the system) performs short polling windows.</li>
     <li>In-app purchases and restorations are handled by Apple StoreKit. We receive unlock status only.</li>
     <li>No analytics or advertising SDKs.</li>
   </ul>
 
   <h3 id="nettoolkit-pro">NetToolkit Pro</h3>
-  <ul>
+  <ul class="tight">
     <li>Provides network utilities (e.g., ping, traceroute, port checks). Targets you input are used solely for performing those tests and are not uploaded to our servers.</li>
     <li>Optional diagnostics/crash logs may be shared by Apple as described above.</li>
     <li>No advertising SDKs; purchases handled by Apple.</li>
   </ul>
 
   <h2 id="rights">Your Rights</h2>
-  <p>
-    You can request deletion of any data that may be associated with you (if applicable) and ask questions about this policy at any time.
-  </p>
+  <ul class="tight">
+    <li>Request <strong>access</strong> to, <strong>correction</strong> of, or <strong>deletion</strong> of data (if applicable).</li>
+    <li><strong>Object to</strong> or <strong>restrict</strong> certain processing as required by law.</li>
+    <li>You can contact us at any time with privacy questions.</li>
+  </ul>
 
   <h2 id="contact">Contact</h2>
-  <p>
-    📧 <a href="mailto:wanglonghai0000@gmail.com">wanglonghai0000@gmail.com</a>
-  </p>
+  <p>📧 <a href="mailto:wanglonghai0000@gmail.com">wanglonghai0000@gmail.com</a></p>
 
   <hr />
   <p class="muted">
