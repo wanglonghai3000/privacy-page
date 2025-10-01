@@ -1,51 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy - NetToolkit Pro</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy – Dinghai Shengshi Apps</title>
   <style>
+    :root { color-scheme: light dark; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-      color: #333;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      max-width: 820px; margin: 40px auto; padding: 0 20px; line-height: 1.6;
     }
-    h1, h2 {
-      color: #007AFF;
-    }
+    h1,h2,h3 { color: #007AFF; }
+    .muted { color: #666; font-size: 0.95rem; }
+    .card { background: rgba(0,0,0,.03); border: 1px solid rgba(0,0,0,.06); border-radius: 10px; padding: 14px 16px; }
+    a { color: #007AFF; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    nav a { margin-right: 12px; }
   </style>
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p><strong>Last updated:</strong> September 25, 2025</p>
+  <p class="muted"><strong>Last updated:</strong> October 2, 2025</p>
 
-  <p>This Privacy Policy applies to the app <strong>NetToolkit Pro</strong>, developed by <strong>Beijing Dinghai Shengshi Technology Co., Ltd.</strong></p>
+  <p>
+    This Privacy Policy applies to mobile apps published by
+    <strong>Beijing Dinghai Shengshi Technology Co., Ltd.</strong>
+    (“we”, “us”). It currently covers, including but not limited to:
+    <strong>iNetPulse</strong> and <strong>NetToolkit Pro</strong>.
+  </p>
 
-  <h2>Information We Collect</h2>
-  <p>We do <strong>not</strong> collect any personally identifiable information such as name, email, or phone number.</p>
-  <p>Our app may collect limited <strong>device information</strong> (e.g., device model, OS version) and <strong>usage data</strong> (such as feature usage and crash logs) to improve app performance and user experience.</p>
+  <nav>
+    <a href="#scope">Scope</a>
+    <a href="#data">Data We Collect</a>
+    <a href="#use">How We Use Data</a>
+    <a href="#storage">Storage & Security</a>
+    <a href="#third">Third Parties</a>
+    <a href="#per-app">Per-App Details</a>
+    <a href="#rights">Your Rights</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <h2>How We Use Information</h2>
+  <h2 id="scope">Scope</h2>
+  <p>
+    Unless otherwise noted in the per-app sections below, the following terms apply to all of our apps.
+  </p>
+
+  <h2 id="data">Data We Collect</h2>
   <ul>
-    <li>To provide and improve app functionality</li>
-    <li>To diagnose issues and enhance user experience</li>
+    <li><strong>No personal identifiers.</strong> We do not collect your name, email, phone number, or address.</li>
+    <li><strong>Diagnostics (optional).</strong> Anonymous crash logs and performance metrics may be provided by Apple if you opted in to share analytics on your device settings.</li>
+    <li><strong>Purchase records.</strong> When you make in-app purchases, Apple provides us with non-identifying transaction status solely to unlock features.</li>
   </ul>
-  <p>We do <strong>not</strong> sell, rent, or share your data with third parties.</p>
 
-  <h2>Data Protection</h2>
-  <p>We use reasonable technical and administrative measures to protect your data from unauthorized access, loss, or misuse.</p>
+  <h2 id="use">How We Use Data</h2>
+  <ul>
+    <li>Provide core functionality and paid features you requested.</li>
+    <li>Diagnose issues and improve stability and performance.</li>
+    <li>Comply with legal obligations and App Store policies.</li>
+  </ul>
+  <p><strong>We do not sell, rent, or share your data with advertisers.</strong></p>
 
-  <h2>Your Rights</h2>
-  <p>You may contact us at any time to request deletion of collected data or to ask questions about this policy.</p>
+  <h2 id="storage">Storage & Security</h2>
+  <ul>
+    <li>App configuration and content you enter are stored <strong>locally on your device</strong> unless explicitly stated.</li>
+    <li>We employ reasonable technical and organizational measures to protect data against unauthorized access.</li>
+  </ul>
 
-  <h2>Contact Us</h2>
-  <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
-  <p>📧 <a href="mailto:wanglonghai0000@gmail.com">wanglonghai0000@gmail.com</a></p>
+  <h2 id="third">Third Parties</h2>
+  <div class="card">
+    <p><strong>Apple (App Store / StoreKit / Crash Reports).</strong> Purchases are processed by Apple; we do not see your payment card details. If you enable iOS/macOS analytics, Apple may share aggregated diagnostics with developers.</p>
+    <p><strong>No third-party ads SDKs.</strong> Our apps do not integrate advertising or tracking SDKs.</p>
+  </div>
 
-  <hr>
-  <p>By using <strong>NetToolkit Pro</strong>, you agree to this Privacy Policy.</p>
+  <h2 id="per-app">Per-App Details</h2>
+
+  <h3 id="inetpulse">iNetPulse</h3>
+  <ul>
+    <li>Designed for SNMP bandwidth monitoring. The SNMP host, community string, and samples are used only to communicate with the network devices <strong>you configure</strong> and are stored locally on your device.</li>
+    <li>Background refresh (if enabled by the system) performs short polling windows; no data is transmitted to our servers.</li>
+    <li>In-app purchases and restorations are handled by Apple StoreKit. We receive unlock status only.</li>
+    <li>No analytics or advertising SDKs.</li>
+  </ul>
+
+  <h3 id="nettoolkit-pro">NetToolkit Pro</h3>
+  <ul>
+    <li>Provides network utilities (e.g., ping, traceroute, port checks). Targets you input are used solely for performing those tests and are not uploaded to our servers.</li>
+    <li>Optional diagnostics/crash logs may be shared by Apple as described above.</li>
+    <li>No advertising SDKs; purchases handled by Apple.</li>
+  </ul>
+
+  <h2 id="rights">Your Rights</h2>
+  <p>
+    You can request deletion of any data that may be associated with you (if applicable) and ask questions about this policy at any time.
+  </p>
+
+  <h2 id="contact">Contact</h2>
+  <p>
+    📧 <a href="mailto:wanglonghai0000@gmail.com">wanglonghai0000@gmail.com</a>
+  </p>
+
+  <hr />
+  <p class="muted">
+    By using our apps, you agree to this Privacy Policy. If we make material changes, we will update the date above and, where required, provide in-app notice.
+  </p>
 </body>
 </html>
